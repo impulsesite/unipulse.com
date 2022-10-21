@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Poppins:wght@200;300;400;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e216f40f7.js" crossorigin="anonymous"></script>
+
+    <title>Impulse University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="sidemenu">
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online programs for 2022</h1>
+
+    </section>
+
+    <!----------blog page content------------>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/certificate.jpg">
+                <h2>Our Certificate & Online programs for 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus tempora fuga mollitia harum. Ab, dolorem. Quaerat inventore temporibus, eveniet, accusantium ipsa veniam nihil autem, exercitationem repellat amet repudiandae minus!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consectetur modi sit corporis accusantium eius, unde minus aliquid iusto, rem inventore qui obcaecati dolor magni quas placeat vel nobis velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod omnis recusandae possimus aspernatur maxime deserunt esse amet animi provident officia et, dolore doloribus corrupti nam eaque hic pariatur similique dolores!  </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ut dolor earum tenetur necessitatibus, ipsa omnis, rem minima modi quisquam maxime consectetur, in molestias dolores? Alias illo quo cumque voluptatem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor molestiae aperiam consequatur. Accusantium corrupti possimus debitis facere blanditiis ut, doloribus beatae amet alias dolorem commodi, dignissimos voluptatem excepturi magni! </p>
+                 <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ut dolor earum tenetur necessitatibus, ipsa omnis, rem minima modi quisquam maxime consectetur, in molestias dolores? Alias illo quo cumque voluptatem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor molestiae aperiam consequatur. Accusantium corrupti possimus debitis facere blanditiis ut, doloribus beatae amet alias dolorem commodi, dignissimos voluptatem excepturi magni! </p>
+                
+                <div class="comment-box">
+                    <h3>leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCard</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+           
+
+                    <!----------facilities------------>
+   
+ 
+
+        <!----------footer------------>
+<section class="footer">
+    <h4>About Impulse</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam alias doloribus  sapiente incidunt odio <br> ipsum quaerat doloremque praesentium deserunt, cum temporibus recusandae</p>
+    <div class="icons">
+        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Impulse-University</a>
+    </p>
+</section>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
